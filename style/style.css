@@ -98,7 +98,8 @@ picture::before {
    width: 100%;
    height: 100%;
    background-color: var(--Soft-violet);
-   filter: opacity(0.5) saturate(1.5);
+   mix-blend-mode: multiply;
+   opacity: 0.75;
 }
 
 @media screen and (max-width:400px) {
